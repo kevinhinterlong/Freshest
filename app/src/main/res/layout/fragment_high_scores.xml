@@ -1,0 +1,38 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hinterlong.kevin.cs126.freshest.fragments.LeaderboardsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/personal_best"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Personal best"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/high_scores_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:stackFromEnd="true"
+            app:reverseLayout="true"
+            app:layoutManager="LinearLayoutManager"
+            android:fadeScrollbars="false"
+            tools:listitem="@layout/score_record_list_item">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</FrameLayout>

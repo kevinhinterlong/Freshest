@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Freshest</string>
+    <string name="title_home">Home</string>
+    <string name="title_help">Help</string>
+    <string name="title_leaderboards">Leaderboards</string>
+    <string name="score">Score: %1$d</string>
+    <string name="personal_best">Personal best: %2$d.</string>
+    <string name="welcome">Welcome to Freshestme.me</string>
+    <string name="play_game">Play Game</string>
+    <string name="instructions">Instructions</string>
+    <string name="triple_jump_hint">Hint: You can triple jump.</string>
+    <string name="how_to_jump">Tap the screen to start jumping.</string>
+    <string name="watch_out_for_obstacles">Watch out for obstacles.</string>
+    <string name="jump_before_they_get_too_close">Jump before they get too close.</string>
+    <string name="resume">Resume</string>
+    <string name="quit">Quit</string>
+    <string name="game_paused">Game paused</string>
+    <string name="save_score">Save your score</string>
+    <string name="save_score_of">Would you like to save your score of %1$d?</string>
+    <string name="play_again">Play Again</string>
+    <string name="change_name">Change Name</string>
+    <string name="exit">Exit</string>
+    <string name="enter_a_name">Enter a name</string>
+    <string name="input_username_for_leaderboards">Please input a username for the leaderboards.</string>
+    <string name="requires_nonemtpy_name">Name must not be empty</string>
+    <string name="showcase_bottom_navigation">Use the bottom navigation to move around. You\'re on the home page right now.</string>
+    <string name="showcase_play_game_button">Click here to start playing.</string>
+    <string name="showcase_high_scores">Let\'s check out the High Scores.</string>
+    <string name="showcase_help_screen">Look here for more help.</string>
+</resources>

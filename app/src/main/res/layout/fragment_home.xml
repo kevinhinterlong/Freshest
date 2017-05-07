@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.hinterlong.kevin.cs126.freshest.fragments.HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="@string/welcome"
+        android:textSize="36sp"/>
+
+    <Button
+        android:id="@+id/play_game"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:textSize="36sp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:text="@string/play_game"/>
+
+</FrameLayout>
